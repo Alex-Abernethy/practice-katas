@@ -63,3 +63,23 @@ function divideByTwo(num) {
 var dividedArray = array.map(divideByTwo)
 
 console.log('array divided by two ' + dividedArray)
+
+// loop over an array return index and item
+console.log('index and item pairs')
+array.forEach(function (item, index) {
+  console.log(item, index);
+})
+
+// add value 100 to end of array
+array.push(100)
+console.log('100 pushed to array ' + array)
+
+// find index of 100 pushed above
+console.log('index of 100 in array ' + array.indexOf(100))
+
+// copy array as new variable newArray
+var newArray = array.slice()
+console.log('newArray = ' + newArray)
+
+// use array.some to test is array contains even numbers
+console.log('returns true if array contains even numbers: ' + array.some(evens))

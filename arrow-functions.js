@@ -1,6 +1,9 @@
 // set an array
 const array = [1, 2, 3, 4, 5]
 
+// find index of 4 in array
+console.log('index of #4 is ' + array.findIndex(x => x == 4))
+
 // map an array
 const map = array.map(i => i + 1);
 console.log('mapped ' + map)
