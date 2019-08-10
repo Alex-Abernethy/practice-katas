@@ -83,3 +83,11 @@ console.log('newArray = ' + newArray)
 
 // use array.some to test is array contains even numbers
 console.log('returns true if array contains even numbers: ' + array.some(evens))
+
+// use array.from to make array from string
+console.log(Array.from('string'))
+
+// turn string into an array and double each index
+var string = "1234"
+console.log('string = ' + string)
+console.log('string turn into array and each value doubled = ' + string.split('').map(multiplyByTwo))
