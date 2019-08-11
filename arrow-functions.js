@@ -41,3 +41,10 @@ const string = "the quick brown fox jumped over the lazy dog"
 // split a string
 const splitString = (string) => string.split(' ')
 console.log('split string ' + splitString(string))
+
+// split and filter string
+var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word => word.length > 6);
+
+console.log(result);
